@@ -3,9 +3,9 @@ const express = require("express");
 // importo dotenv
 require("dotenv").config();
 // importo notFound
-const notFound = require("./middlewares/notFound");
+const notFound = require("./middlewares/error/notFound");
 // importo errorHandler
-const chechError = require("./middlewares/errorHandler");
+const chechError = require("./middlewares/error/errorHandler");
 // importo routers/movies
 const moviesRouter = require("./routers/movies");
 
